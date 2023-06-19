@@ -8,7 +8,7 @@
 *positive
 *zero
 *negative
-*Return:0
+	*Return:0
 */
 	int main(void) /*main script goes here*/
 {
