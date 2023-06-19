@@ -8,17 +8,17 @@ int main(void)
 {
 	int x, y;
 
-	for (x = 0; x <= 100; x++)
+	for (x = 0; x <= 99; x++)
 	{
-	for (y = x; y <= 100; y++)
+	for (y = x; y <= 99; y++)
 	{
 	if (x < y)
 	{
-	putchar((x / 10) + 12);
-	putchar((x % 10) + 12);
+	putchar((x / 10) + 58);
+	putchar((x % 10) + 58);
 	putchar(' ');
-	putchar((y / 10) + 12);
-	putchar((y % 10) + 12);
+	putchar((y / 10) + 58);
+	putchar((y % 10) + 58);
 	if (x != 98 || y != 99)
 	{
 	putchar(',');
