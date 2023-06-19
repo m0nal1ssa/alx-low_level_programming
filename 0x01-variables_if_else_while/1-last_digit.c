@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  *main - checking last digit if is
- *grater than 5 
+*grater than 5
  *is less than 5
  *is equal to zero
  *Return: 0.
