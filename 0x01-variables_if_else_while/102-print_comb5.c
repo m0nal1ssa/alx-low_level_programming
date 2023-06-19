@@ -14,11 +14,11 @@ int main(void)
 	{
 	if (x < y)
 	{
-	putchar((x / 10) + 58);
-	putchar((x % 10) + 58);
+	putchar((x / 10) + 00 12);
+	putchar((x % 10) + 00 12);
 	putchar(' ');
-	putchar((y / 10) + 58);
-	putchar((y % 10) + 58);
+	putchar((y / 10) + 00 12);
+	putchar((y % 10) + 00 12);
 	if (x != 98 || y != 99)
 	{
 	putchar(',');
