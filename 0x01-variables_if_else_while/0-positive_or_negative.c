@@ -9,9 +9,9 @@
 *positive
 *zero
 *negative 
-* Return:  0.
+*Return:  0.
 */
-int main(void) /* main script goes here */
+int main(void) /*main script goes here */
 {
 	int n;
 
@@ -22,10 +22,10 @@ int main(void) /* main script goes here */
 		printf("%d is positive\n", n);  /*print positive */
 
 	else if (n == 0)
-		printf("%d is zero\n", n);   /* zero zone */
+		printf("%d is zero\n", n);   /*zero zone*/
 
 	else
-		printf("%d is negative\n", n);  /* negative side*/
+		printf("%d is negative\n", n);  /*negative side*/
 
 	return (0);
 }
