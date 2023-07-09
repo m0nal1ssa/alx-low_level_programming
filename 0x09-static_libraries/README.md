@@ -1,0 +1,1 @@
+READMME for static libraries
