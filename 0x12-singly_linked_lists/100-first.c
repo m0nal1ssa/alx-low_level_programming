@@ -1,6 +1,6 @@
-/***ADVANCED TASK 100***
+/*
  * File: 100-first.c
- * Auth: Balogun Monalisa Efua
+ * Auth: Balogun monalisa
  */
 
 #include <stdio.h>
