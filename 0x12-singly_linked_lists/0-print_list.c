@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 
-/***PRINTS A LIST****
+/**
  * print_list - Prints a list_t list.
  * @h: The list_t list.
  * Return: The number of nodes in h.
