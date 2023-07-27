@@ -1,6 +1,6 @@
 /***ADVANCED TASK 100***
  * File: 100-first.c
- * Auth: Brennan D Baraban
+ * Auth: Balogun Monalisa Efua
  */
 
 #include <stdio.h>
