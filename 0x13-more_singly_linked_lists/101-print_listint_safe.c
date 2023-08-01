@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * print_listint_safe - this prints the list
+ * print_listint_safe - print list
  * @head: head node
  * Return: amount of nodes in list
  */
