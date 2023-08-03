@@ -1,31 +1,20 @@
 #include "main.h"
 
 /**
- * binary_to_uint - Converts a binary number to an unsigned int.
- * @b: A pointer to a string of 0 and 1 chars.
+ * get_bit - Gets the value of a bit at a given index.
+ * @n: The bit.
+ * @index: The index to get the value at - indices start at 0.
  *
- * Return: If b is NULL or contains chars not 0 or 1 - 0.
- *         Otherwise - the converted number.
+ * Return: If an error occurs - -1.
+ *         Otherwise - The value of bit at index.
  */
-unsigned int binary_to_uint(const char *b)
+int get_bit(unsigned long int n, unsigned int index)
 {
-	unsigned int num = 0, mult = 1;
-	int len = 0;
+	if (index >= (sizeof(unsigned long int) * 8))
+		return (-1);
 
-	if (b == '\0')
+	if ((n & (1 << index)) == 0)
 		return (0);
 
-	while (b[len])
-		len++;
-
-	for (len -= 1; len >= 0; len--)
-	{
-		if (b[len] != '0' && b[len] != '1')
-			return (0);
-
-		num += (b[len] - '0') * mult;
-		mult *= 2;
-	}
-
-	return (num);
+	return (1);
 }
